@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Horário de Atendimento</title>
+</head>
+<body class="hours">
+    <header>
+        <h1>Clínica do Triângulo</h1>
+        <h1>Horário de Atendimento</h1>
+    </header>
+
+    <audio autoplay loop id="meuAudio">
+        <source src="songs\sea-and-seagull.mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="services.html">Serviços Oferecidos</a></li>
+            <li><a href="hours.html">Horário de Atendimento</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <article>
+            <table class="pirate-schedule">
+                <caption>CAPITÃO, AGENDE SUA ESTADIA</caption>
+                <thead>
+                    <tr>
+                        <th>Dia da Semana</th>
+                        <th>Vigias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>1ª Vigia: 08:00 - 12:00 <br> 2ª Vigia: 12:00 - 16:00 <br> 3ª Vigia: 16:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Terça-feira</td>
+                        <td>1ª Vigia: 08:00 - 12:00 <br> 2ª Vigia: 12:00 - 16:00 <br> 3ª Vigia: 16:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>1ª Vigia: 08:00 - 12:00 <br> 2ª Vigia: 12:00 - 16:00 <br> 3ª Vigia: 16:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-feira</td>
+                        <td>1ª Vigia: 08:00 - 12:00 <br> 2ª Vigia: 12:00 - 16:00 <br> 3ª Vigia: 16:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>1ª Vigia: 08:00 - 12:00 <br> 2ª Vigia: 12:00 - 16:00 <br> 3ª Vigia: 16:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>1ª Vigia: 10:00 - 12:00 <br> 2ª Vigia: 12:00 - 14:00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+        </div>
+    <footer>
+        <p>&copy; 2024 Clínica do Triângulo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const audio = document.getElementById('meuAudio');
+        audio.volume = 0.3;
+    </script>
+</body>
+</html>
